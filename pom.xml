@@ -38,7 +38,7 @@
 
     <build>
         <!--
-            This forces the built file to be named vprofile-v1.war
+            This forces the built file to be named vprofile.war
             regardless of artifactId/version, matching what the Jenkins
             Nexus Artifact Uploader step is looking for.
         -->
