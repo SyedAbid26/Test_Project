@@ -42,7 +42,7 @@
             regardless of artifactId/version, matching what the Jenkins
             Nexus Artifact Uploader step is looking for.
         -->
-        <finalName>vprofile-v1.war</finalName>
+        <finalName>vprofile.war</finalName>
 
         <plugins>
             <!-- WAR plugin: packages the app into a .war file -->
