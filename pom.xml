@@ -5,9 +5,9 @@
                               http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.demo</groupId>
-    <artifactId>demo</artifactId>
-    <version>d1</version>
+    <groupId>vprofile-v1</groupId>
+    <artifactId>vprofile</artifactId>
+    <version>v1</version>
     <!-- IMPORTANT: packaging must be WAR, not JAR -->
     <packaging>war</packaging>
 
@@ -38,11 +38,11 @@
 
     <build>
         <!--
-            This forces the built file to be named demo.war
+            This forces the built file to be named vprofile-v1.war
             regardless of artifactId/version, matching what the Jenkins
             Nexus Artifact Uploader step is looking for.
         -->
-        <finalName>demo</finalName>
+        <finalName>vprofile-v1.war</finalName>
 
         <plugins>
             <!-- WAR plugin: packages the app into a .war file -->
