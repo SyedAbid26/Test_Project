@@ -7,7 +7,7 @@
 
     <groupId>test-p1</groupId>
     <artifactId>test</artifactId>
-    <version>v1</version>
+    <version>t1</version>
     <!-- IMPORTANT: packaging must be WAR, not JAR -->
     <packaging>war</packaging>
 
